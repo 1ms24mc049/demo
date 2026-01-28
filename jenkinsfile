@@ -6,7 +6,7 @@ pipeline {
 		DOCKERHUB_CRED=credentials('dockerhub')
 		IMAGE_NAME="1ms24mc049/demo"
 	}
-	tiggers {
+	triggers {
 		cron('* * * * *')
 	}
 	
