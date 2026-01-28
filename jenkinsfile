@@ -10,7 +10,7 @@ pipeline {
 	stages {
 		stage('checkout') {
 			steps {
-				git url:'git@github.com:1ms24mc049/demo.git', branch:'main'
+				git url:'https://github.com/1ms24mc049/demo.git', branch:'main'
 			}
 		}
 	stage('Build React App') {
